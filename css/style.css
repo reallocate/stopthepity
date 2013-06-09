@@ -1,0 +1,110 @@
+#home{
+
+	height: 100%;
+	width: 100%;
+}
+
+#home-circle{
+	margin-top: 110px;
+}
+
+.image-slide{
+	height: 800px;
+	width: 100%;
+}
+
+
+
+.h1{
+	color: #00c78b;
+}
+
+#stp-jtm-btn{
+	display: block;
+	margin: 0 auto;
+	height:66px;
+	width: 282px;
+	background-color: #00c78b;
+	color: #FFFFFF;
+}
+
+a .stp-btn{
+	text-decoration: none;
+}
+
+a.stp-btn:hover{
+		background-color: #02a675;
+		text-decoration: none;
+		color: #FFFFFF;
+}
+
+a .stp-btn:active{
+		background-color: #02a675;
+		text-decoration: none;
+}
+
+.content-slide{
+	height: 500;
+	width: 100%;
+	background-color: #fff;
+	text-align: left;
+}
+
+.join-button{
+	background-color:;
+}
+
+#slide1{
+	background: url(../images/home.png) 50% 0 ; 
+	position: absolute;
+}
+
+#slide1-content{
+	width: 100%;
+	height:370;
+	color: #fff;
+	text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	margin-top: 50px;
+}
+
+#slide3{
+	background: url(../images/1.png) 50% 0 ; 
+}
+#slide5{
+	background: url(../images/2.png) 50% 0 ; 
+}
+#slide7{
+	background: url(../images/3.png) 50% 0 ; 
+}
+#slide9{
+	background: url(../images/4.png) 50% 0 ; 
+}
+#slide11{
+	background: url(../images/5.png) 50% 0 ; 
+}
+#slide13{
+	background: url(../images/6.png) 50% 0 ; 
+}
+#slide15{
+	background: url(../images/7.png) 50% 0 ; 
+}
+
+
+/* Non-essential demo stuff */
+.hero-unit {
+	background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.media-object { width: 64px; height: 64px; padding-bottom: 30px }
+
+p.bold{
+	font-weight: bold;
+}
+
+.center { float: none; margin-left: auto; margin-right: auto; }
+
+#home-text {
+	margin:0 auto;
+	float:none;
+}
