@@ -1,4 +1,60 @@
-.story { height: 600px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
+.navbar-inner {
+	background: #00c78b;
+	border: 0;
+}
+
+.navbar .nav {
+	float: right;
+	margin-top: 10px;
+}
+
+.navbar .nav>li>a {
+	color: #fff;
+	text-shadow: none;
+}
+.navbar .nav>li>a:hover {
+	color: #fff;
+	text-shadow: none;
+}
+
+p {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+p.small-width {
+	margin: 10px auto;
+	text-align: center;
+	width: 660px;
+}
+
+section {
+	display: block;
+	height: 800px;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+section .background {
+	height: 800px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.content-slide {
+	background-color: #fff;
+	height: 500px;
+	/*left: 0;
+	position: absolute;
+	top: 0;*/
+	text-align: left;
+	width: 100%;
+}
 
 #home{
 	height: 100%;
@@ -7,6 +63,7 @@
 
 #home-circle{
 	margin-top: 110px;
+	text-align: center;
 }
 
 .image-slide{
@@ -14,10 +71,9 @@
 	width: 100%;
 }
 
-
-
-.h1{
+h1{
 	color: #00c78b;
+	margin-bottom: 30px;
 }
 
 #stp-jtm-btn{
@@ -44,58 +100,93 @@ a .stp-btn:active{
 		text-decoration: none;
 }
 
-.content-slide{
-	height: 500;
-	width: 100%;
-	background-color: #fff;
-	text-align: left;
+#join {
+	display: block;
+	height: 372px;
+	margin-top: 60px;
 }
 
 .join-button{
 	background-color:;
 }
 
-#slide1{
-	background: url(../images/home.png) 50% 0 ; 
-	position: absolute;
+#slide1 .background {
+	background: url(../images/home.png) 50% 0 ;
 }
 
 #slide1-content{
 	width: 100%;
-	height:370;
+	height: 260px;
 	color: #fff;
 	text-align: center;
 	background-color:rgba(0,0,0,0.5);
 	margin-top: 50px;
 }
 
-#slide3{
-	background: url(../images/1.png) 50% 0 ; 
-}
-#slide5{
-	background: url(../images/2.png) 50% 0 ; 
-}
-#slide7{
-	background: url(../images/3.png) 50% 0 ; 
-}
-#slide9{
-	background: url(../images/4.png) 50% 0 ; 
-}
-#slide11{
-	background: url(../images/5.png) 50% 0 ; 
-}
-#slide13{
-	background: url(../images/6.png) 50% 0 ; 
-}
-#slide15{
-	background: url(../images/7.png) 50% 0 ; 
+.next-slide {
+	width: 48px;
+	position: absolute;
+	bottom: 10px;
+	left: 708px;
+	z-index: 10;
 }
 
+.next-slide.green {
+	bottom: -5px;
+}
+
+#slide3 .background {
+	background: url(../images/1.png) 50% 0 ; 
+}
+
+#slide4 h1 {
+	margin-top: 170px;
+}
+
+#slide5 .background {
+	background: url(../images/2.png) 50% 0 ; 
+}
+
+#slide6 h1 {
+	margin-top: 135px;
+}
+
+#slide7 .background {
+	background: url(../images/3.png) 50% 0 ; 
+}
+
+#slide8 h1 {
+	margin-top: 80px;
+}
+
+#slide9 .background {
+	background: url(../images/4.png) 50% 0 ; 
+}
+
+#slide10 h1 {
+	margin-top: 170px;
+}
+
+#slide11 .background {
+	background: url(../images/5.png) 50% 0 ; 
+}
+
+#slide12 h1 {
+	margin-top: 160px;
+}
+
+#slide13 .background {
+	background: url(../images/6.png) 50% 0 ; 
+}
+
+#slide15 .background {
+	background: url(../images/7.png) 50% 0 ; 
+}
 
 /* Non-essential demo stuff */
 .hero-unit {
 	background-color: #fff;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 .media-object { width: 64px; height: 64px; padding-bottom: 30px }
 
