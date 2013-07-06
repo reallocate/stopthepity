@@ -10,6 +10,7 @@ Lil method I whipped up. - Chris Abrams
 
     // Plugin defaults
     $.fn.scrollToElement.options = {
+      offset: 0,
       speed: 1000,
       to: ''
     };
@@ -26,7 +27,7 @@ Lil method I whipped up. - Chris Abrams
         e.preventDefault();
 
         $('html, body').animate({
-          scrollTop: options.to.offset().top
+          scrollTop: options.to.offset().top + options.offset
         }, options.speed);
       });
 
@@ -40,23 +41,48 @@ document.createElement("section");
 
 $(document).ready(function() {
 
+  $('#link-videos').scrollToElement({
+    offset: -62,
+    to: $('#slide10')
+  });
+
+  $('#link-about').scrollToElement({
+    offset: -62,
+    to: $('#slide4')
+  });
+
+  $('#link-partners').scrollToElement({
+    offset: -62,
+    to: $('#slide16')
+  });
+
+  $('#link-support').scrollToElement({
+    offset: -62,
+    to: $('#slide14')
+  });
+
   $('#slide1next').scrollToElement({
+    offset: -62,
     to: $('#slide4')
   });
 
   $('#slide4next').scrollToElement({
+    offset: -62,
     to: $('#slide6')
   });
 
   $('#slide6next').scrollToElement({
+    offset: -62,
     to: $('#slide8')
   });
 
   $('#slide8next').scrollToElement({
+    offset: -62,
     to: $('#slide10')
   });
 
   $('#slide12next').scrollToElement({
+    offset: -62,
     to: $('#slide14')
   });
    
