@@ -1,3 +1,7 @@
+body {
+	background-color: #2c2624;
+}
+
 .navbar-inner {
 	background: #00c78b;
 	border: 0;
@@ -5,16 +9,21 @@
 
 .navbar .nav {
 	float: right;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
-.navbar .nav>li>a {
+.link {
+	color: #fff;
+	margin-right: 20px;
+	text-shadow: none;
+}
+.link:hover {
 	color: #fff;
 	text-shadow: none;
 }
-.navbar .nav>li>a:hover {
-	color: #fff;
-	text-shadow: none;
+
+.link-social {
+	margin-right: 10px;
 }
 
 p {
@@ -110,6 +119,10 @@ a .stp-btn:active{
 	background-color:;
 }
 
+#slide1 {
+	margin-bottom: 60px;
+}
+
 #slide1 .background {
 	background: url(../images/home.png) 50% 0 ;
 }
@@ -164,7 +177,17 @@ a .stp-btn:active{
 }
 
 #slide10 h1 {
-	margin-top: 170px;
+	margin-top: 110px;
+}
+
+#slide11 {
+	position: relative;
+	text-align: center;
+}
+
+#slide11 iframe {
+	display: inline-block;
+	margin-top: -100px;
 }
 
 #slide11 .background {
@@ -179,8 +202,124 @@ a .stp-btn:active{
 	background: url(../images/6.png) 50% 0 ; 
 }
 
+#slide14 .container {
+	position: relative;
+	text-align: center;
+}
+
+#slide14 h1 {
+	position: absolute;
+	top: 160px;
+	width: 1170px;
+	z-index: 2;
+}
+
+#buy-container {
+	display: inline-block;
+	margin-top: 240px;
+}
+
+#buy-a-shirt {
+	display: inline-block;
+}
+
+#shirt-left {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+#shirt-right {
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+
 #slide15 .background {
 	background: url(../images/7.png) 50% 0 ; 
+}
+
+#slide16 .container {
+	text-align: center;
+}
+
+#slide16 h1 {
+	margin-top: 60px;
+}
+
+#slide16 a {
+	display: inline-block;
+	height: 120px;
+	margin-right: 80px;
+	width: 120px;
+}
+
+#slide16 a.no-m-r {
+	margin-right: 0;
+}
+
+#partner1 {
+	background: url('../images/STP_partner1.png') no-repeat;
+}
+
+#partner1:hover {
+	background: url('../images/STP_partner1_hover.png.png') no-repeat;
+}
+
+#partner2 {
+	background: url('../images/STP_partner2.png') no-repeat;
+}
+
+#partner2:hover {
+	background: url('../images/STP_partner2_hover.png.png') no-repeat;
+}
+
+#partner3 {
+	background: url('../images/STP_partner3.png') no-repeat;
+}
+
+#partner3:hover {
+	background: url('../images/STP_partner3_hover.png.png') no-repeat;
+}
+
+#partner4 {
+	background: url('../images/STP_partner4.png') no-repeat;
+}
+
+/*#partner4:hover {
+	background: url('../images/STP_partner4_hover.png.png') no-repeat;
+}*/
+
+#partner5 {
+	background: url('../images/STP_partner5.png') no-repeat;
+}
+
+#partner5:hover {
+	background: url('../images/STP_partner5_hover.png.png') no-repeat;
+}
+
+#partner6 {
+	background: url('../images/STP_partner6.png') no-repeat;
+}
+
+#partner6:hover {
+	background: url('../images/STP_partner6_hover.png.png') no-repeat;
+}
+
+#partner7 {
+	background: url('../images/STP_partner7.png') no-repeat;
+}
+
+#partner7:hover {
+	background: url('../images/STP_partner7_hover.png.png') no-repeat;
+}
+
+#partner8 {
+	background: url('../images/STP_partner8.png') no-repeat;
+}
+
+#partner8:hover {
+	background: url('../images/STP_partner8_hover.png.png') no-repeat;
 }
 
 /* Non-essential demo stuff */
@@ -199,4 +338,101 @@ p.bold{
 #home-text {
 	margin:0 auto;
 	float:none;
+}
+
+footer {
+  background-color: #00c78b;
+  color: #fff;
+	height: 100px;
+	line-height: 100px;
+}
+
+@media screen and (max-width: 599px) {
+	body {
+		padding: 0;
+	}
+
+	.container {
+		margin: 0;
+		padding: 0;
+	}
+
+	footer .container {
+		margin-left: 6px;
+	}
+
+	.row-fluid {
+		margin-left: 6px;
+	}
+
+	.navbar .brand {
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.navbar .nav {
+		float: right;
+		margin-top: 20px;
+		margin-left: 46px;
+	}
+
+	p.small-width {
+		margin: 10px 0;
+		text-align: left;
+		width: 320px;
+	}
+
+	#slide4 h1 {
+		margin-top: 80px;
+	}
+
+	#slide6 h1 {
+	  margin-top: 40px;
+	}
+
+	#slide8 h1 {
+    margin-top: 4px;
+  }
+
+  #slide10 h1 {
+    margin-top: 20px;
+  }
+
+  #slide12 h1 {
+    margin-top: 60px;
+  }
+
+  #buy-a-shirt {
+		position: absolute;
+		top: 380px;
+		left: 20px;
+		z-index: 3;
+	}
+
+	#slide16 {
+		height: 560px;
+	}
+
+	#slide16 h1 {
+		margin-top: 4px;
+		font-size: 24px;
+	}
+
+	#slide16 a {
+		display: inline-block;
+		height: 112px;
+		margin-right: 20px;
+		width: 112px;
+	}
+
+	.second {
+		margin-right: 0;
+	}
+
+	iframe {
+		max-width: 100%;
+	}
 }

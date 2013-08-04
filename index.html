@@ -2,15 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Twitter Bootstrap Parallax Tutorial</title>
-	<meta name="description" content="Twitter Bootstrap Parallax Tutorial with HTML5 / CSS3 / JavaScript">
-	<meta name="author" content="Untame.net">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Stop the Pity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="">
 
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-
-	<script src="js/jquery-1.6.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-
 	<link href="css/style.css" rel="stylesheet" media="screen">
 
 </head>
@@ -22,14 +19,18 @@
 	  	<div class="container">
 		    <a class="brand" href="#"><img src="images/STP_Logo.png"></a>
 
-		    <ul class="nav">
-		      <li><a href="#home">Videos</a></li>
-		      <li><a href="#about">About</a></li>
-		      <li><a href="#support">Support</a></li>
-		      <li><a href="#partners">Partners</a></li>
-		      <li><a href="#gallery">Gallery</a></li>
-		      <li><a href="#join">Join</a></li>
-		    </ul>
+		    <nav class="nav">
+		      <a id="link-videos" class="link" href="#home">Videos</a>
+		      <a id="link-about" class="link" href="#about">About</a>
+		      <a id="link-support"class="link" href="#support">Support</a>
+		      <a id="link-partners" class="link" href="#partners">Partners</a>
+		      <a id="link-gallery" class="link" href="#gallery">Gallery</a>
+		      <a id="link-join" class="link" href="#join">Join</a>
+
+		      <a class="link-social" href=""><img src="/images/STP_Facebook.png" /></a>
+		      <a class="link-social" href=""><img src="/images/STP_Twitter.png" /></a>
+		      <a class="link-social" href=""><img src="/images/STP_Email.png" /></a>
+		    </nav>
 		</div>
 	  </div>
 	</div>
@@ -56,11 +57,15 @@
 			<div class="row-fluid">
 				<a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
 			</div>
-			<div class="next-slide" target-slide="slide3">
+			<div id="slide1next" class="next-slide" target-slide="slide3">
 				<a href="#"><img src="images/STP_BTN_Down_Transparent.png"></a>
 			</div>
 	  </div>
 
+	</section>
+
+	<section id="slide3">
+		<div class="background parallax" data-velocity="-.1"></div>
 	</section>
 
 	<section id="slide4" class="content-slide parallax" data-velocity="-.7">
@@ -75,7 +80,7 @@
 				<div class="span4"></div>
 			</div>
 
-			<div class="next-slide green" target-slide="slide3">
+			<div id="slide4next" class="next-slide green">
 				<a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
 			</div>
 	   </div>
@@ -96,7 +101,7 @@
 				<div class="span4"></div>
 			</div>
 
-			<div class="next-slide green" target-slide="slide3">
+			<div id="slide6next" class="next-slide green">
 				<a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
 			</div>
 	   </div>
@@ -118,7 +123,7 @@
 				<div class="span4"></div>
 			</div>
 
-			<div class="next-slide green" target-slide="slide3">
+			<div id="slide8next" class="next-slide green">
 				<a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
 			</div>
 	   </div>
@@ -134,19 +139,20 @@
 					<h1>Videos</h1>
 					<p> 
 					Mama Hope created 4 videos that shared the compelling truth of the lives of the communities they work with in the voice of the people.
+				  </p>
+
+					<p>
 					These 4 videos received international attentional and viral success with over 1.9 million views globally.
 					</p>
 				</div>
 				<div class="span4"></div>
 			</div>
-
-			<div class="next-slide green" target-slide="slide3">
-				<a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
-			</div>
 	   </div>
 	</section>
 	
 	<section id="slide11">
+		<iframe width="853" height="480" src="//www.youtube.com/embed/qSElmEmEjb4?rel=0" frameborder="0" allowfullscreen></iframe>
+
 		<div class="background parallax" data-velocity="-.1"></div>
 	</section>
 
@@ -162,7 +168,7 @@
 				<div class="span4"></div>
 			</div>
 
-			<div class="next-slide green" target-slide="slide3">
+			<div id="slide12next" class="next-slide green">
 				<a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
 			</div>
 	   </div>
@@ -174,9 +180,13 @@
 
 	<section id="slide14" class="content-slide parallax" data-velocity="-.7">
 		<div class="container">
-			<h1> Support the Movement </h1>
+			<h1>Support the Movement</h1>
 
-			<button class="btn join-button"> Buy a Shirt </button>
+			<div id="buy-container">
+				<img id="shirt-left" src="/images/shirt-left.jpg" />
+			  <a id="buy-a-shirt" href="#"><img src="/images/STP_CTA_OrderAShirt.png" /></a>
+			  <img id="shirt-right" src="/images/shirt-right.jpg" />
+		  </div>
 	    </div>
 	</section>
 
@@ -187,8 +197,31 @@
 	<section id="slide16" class="content-slide">
 		<div class="container">
 			<h1> In Partnership with </h1>
-	    </div>
+
+			<div class="row">
+				<a id="partner1" href="#"></a>
+				<a id="partner2" class="second" href="#"></a>
+				<a id="partner3" href="#"></a>
+				<a id="partner4" class="no-m-r second" href="#"></a>
+			</div>
+			<div class="row">
+				<a id="partner5" class="second" href="#"></a>
+				<a id="partner6" href="#"></a>
+				<a id="partner7" href="#"></a>
+				<a id="partner8" class="no-m-r second" href="#"></a>
+			</div>
+	  </div>
 	</section>
+
+	<footer>
+		<div class="container">
+			&copy; Stop the Pity 2013
+		</div>
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/init.js"></script>
 
 </body>
 
