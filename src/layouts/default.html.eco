@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Site Properities -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+
+	<!-- DocPad Meta -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- DocPad Styles + Our Own -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Icons -->
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="http://a0.twimg.com/profile_images/3340038846/b30ccb3ed643d1087f0d8b20a57b9167_normal.jpeg" />
+	<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+	<link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57x57-precomposed.png" />
+	<!-- For first- and second-generation iPad: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72-precomposed.png" />
+	<!-- For iPhone with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114-precomposed.png" />
+	<!-- For third-generation iPad with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png" />
+</head>
+<body>
+
+  <div class="navbar navbar-fixed-top">
+	  <div class="navbar-inner">
+	  	<div class="container">
+		    <a class="brand" href="#"><img src="images/STP_Logo.png"></a>
+
+		    <nav class="nav">
+		      <a id="link-videos" class="link" href="#home">Videos</a>
+		      <a id="link-about" class="link" href="#about">About</a>
+		      <a id="link-support"class="link" href="#support">Support</a>
+		      <a id="link-partners" class="link" href="#partners">Partners</a>
+		      <!--<a id="link-gallery" class="link" href="#gallery">Gallery</a>-->
+		      <a id="link-join" class="link" href="#join">Join</a>
+
+		      <a id="facebook-button" class="link-social" href="https://www.facebook.com/dialog/feed?app_id=378957218792212&link=http://stopthepity.org&redirect_uri=http%3A%2F%2Fsplashthat.com%2F%3FfbClose%3D1&name=Stop%20The%20Pity.&display=popup"><img src="/images/STP_Facebook.png" /></a>
+		      <a id="twitter-buton" class="link-social" href="https://twitter.com/intent/tweet?source=tweetbutton&original_referer=http%3A%2F%2Fstopthepity.org%2F&text=Stop%20The%20Pity.&hashtags=StopThePity&url=http%3A%2F%2Fstopthepity.org%2F&via=stopthepity"><img src="/images/STP_Twitter.png" /></a>
+		      <a id="mail-button" class="link-social" href="mailto:?Subject=Check%20out%20Stop%20The%20Pity.%21&amp;Body=http%3A%2F%2Fstopthepity.org%2F"><img src="/images/STP_Email.png" /></a>
+		    </nav>
+			</div>
+	  </div>
+
+	  <div id="circle">
+			<div id="mc_embed_signup">
+				<form action="http://stopthepity.us7.list-manage.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=821e92665b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</form>
+			</div>
+	  </div>
+	</div>
+
+	<%- @content %>
+	
+	<footer>
+		<div class="container">
+			&copy; Stop the Pity 2013
+		</div>
+	</footer>
+
+	<div id="fb-root"></div>
+
+	<!-- jQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/vendor/jquery.js"><\/script>')</script>
+
+	<!-- DocPad Scripts + Our Own -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+</body>
+</html>
