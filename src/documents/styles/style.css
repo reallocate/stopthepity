@@ -6,29 +6,52 @@ body {
   letter-spacing: .05em;
 }
 
+label, input, button, select, textarea {
+  color: #2c2624;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: .05em;
+}
+
 #circle {
-  background: url('/images/circle_blank.png') no-repeat;
-  height: 379px;
-  position: absolute;
-  right: 20px;
-  top: 200px;
-  width: 379px;
   display: none;
+  display: block;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+}
+
+#circle .close {
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 20px;
 }
 
 #mc_embed_signup {
+  padding: 10px 0;
   text-align: center;
 }
 
-#mce-EMAIL {
-  margin-top: 160px;
+#mc_embed_signup form, 
+#mc_embed_signup .input-append, 
+#mc_embed_signup .email {
+  margin: 0;
 }
 
-#mc-embedded-subscribe {
-  background-color: #000;
+#mc_embed_signup .email {
+  margin: 0;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+  background: #00cf83;
   border: 0;
-  border-radius: 3px;
   color: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+#mc_embed_signup #mc-embedded-subscribe:focus {
+  outline: none;
 }
 
 .container {

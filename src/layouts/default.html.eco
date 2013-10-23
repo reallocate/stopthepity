@@ -71,11 +71,19 @@
 
 	  <div id="circle">
 			<div id="mc_embed_signup">
-				<form action="http://stopthepity.us7.list-manage.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=821e92665b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					
-					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</form>
+			  <div class="container">
+  			  <div class="row-fluid">
+  			    <div class="span12">
+      				<form action="http://stopthepity.us7.list-manage.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=821e92665b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      					<div class="input-append">
+      					  <input type="email" value="" name="EMAIL" class="email span10" id="mce-EMAIL" placeholder="email address" required>
+      					  <button class="btn" id="mc-embedded-subscribe" type="button">Subscribe</button>
+      					</div>
+      				</form>
+      				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    				</div>
+  				</div>
+  			</div>
 			</div>
 	  </div>
 	</div>

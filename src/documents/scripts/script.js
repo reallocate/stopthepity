@@ -150,6 +150,6 @@ $('#stp-jtm-btn, #link-join').on('click', function(e) {
   $('#circle').show();
 });
 
-$('#mc-embedded-subscribe').on('click', function(e) {
+$('#mc-embedded-subscribe, .close').on('click', function(e) {
   $('#circle').hide();
 });
