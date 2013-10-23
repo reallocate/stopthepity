@@ -194,7 +194,7 @@ a .stp-btn:active{
 }
 
 #slide1 .background {
-  background: url(../images/home.png) 0 0 no-repeat;
+  background: url(../images/home.png) bottom center no-repeat;
   background-size: cover;
 }
 
@@ -236,27 +236,18 @@ a .stp-btn:active{
   background-size: cover;
 }
 
-#slide4 h1 {
-}
-
 #slide5 .background {
-  background: url(../images/2.png) 0 0 no-repeat;
+  background: url(../images/2.png) 20% 0 no-repeat;
   background-size: cover;
-}
-
-#slide6 h1 {
 }
 
 #slide7 .background {
-  background: url(../images/3.png) 0 0 no-repeat;
+  background: url(../images/3.png) center center no-repeat;
   background-size: cover;
 }
 
-#slide8 h1 {
-}
-
 #slide9 .background {
-  background: url(../images/4.png) 0 0 no-repeat;
+  background: url(../images/4.png) center center no-repeat;
   background-size: cover;
 }
 
@@ -309,7 +300,7 @@ a .stp-btn:active{
 }
 
 #slide13 .background {
-  background: url(../images/6.png) 0 0 no-repeat;
+  background: url(../images/6.png) 20% center no-repeat;
   background-size: cover;
 }
 
@@ -337,20 +328,8 @@ a .stp-btn:active{
   display: inline-block;
 }
 
-#shirt-left {
-  /*left: 0;
-  position: absolute;
-  top: 0;*/
-}
-
-#shirt-right {
-  /*right: 0;
-  position: absolute;
-  top: 0;*/
-}
-
 #slide15 .background {
-  background: url(../images/7.png) 0 0 no-repeat;
+  background: url(../images/7.png) center center no-repeat;
   background-size: cover;
 }
 
