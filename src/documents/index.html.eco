@@ -25,28 +25,99 @@ title: 'Home'
     <div class="row-fluid">
       <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
     </div>
-    <div id="slide1next" class="next-slide" target-slide="slide3">
+    <div id="slide1next" class="next-slide" target-slide="slide10">
       <a href="#"><img src="images/STP_BTN_Down_Transparent.png"></a>
     </div>
   </div>
 
 </section>
 
-<section id="slide3">
+<!-- <section id="slide3"> -->
+<!--   <div class="background parallax" data-velocity="-.1"></div> -->
+<!-- </section> -->
+
+<section id="slide10" class="content-slide parallax" data-velocity="-.7">
+  <div class="container">
+    <div class="row-fluid"> 
+      <div class="span2"></div>
+      <div class="span8">
+        <h1>Videos</h1>
+        <p> 
+        Mama Hope created 4 videos that shared the compelling truth of
+        the lives of the communities they work with in the voice of
+        the people. These 4 videos received international attentional
+        and viral success with over 1.9 million views globally.
+        </p>
+      </div>
+      <div class="span2"></div>
+    </div>
+   </div>
+</section>
+
+<section id="slide11">
+  <!-- <iframe width="853" height="480" src="//www.youtube.com/embed/qSElmEmEjb4?rel=0" frameborder="0" allowfullscreen></iframe> -->
+
+  <a id="video1link" class="vidlink"
+     href="http://www.youtube.com/watch?v=Ww9tksKKH-Y">
+    <img src="/images/video1link.png"/>
+  </a>
+  <a id="video2link" class="vidlink hide"
+     href="http://www.youtube.com/watch?v=qSElmEmEjb4">
+    <img src="/images/video2link.png"/>
+  </a>
+  <a id="video3link" class="vidlink hide"
+     href="http://www.youtube.com/watch?v=OzQfFcy3KJg">
+    <img src="/images/video3link.png"/>
+  </a>
+  <a id="video4link" class="vidlink hide"
+     href="http://www.youtube.com/watch?v=pLix4QPL3tY">
+    <img src="/images/video4link.png"/>
+  </a>
+
+  <div class="row-fluid">
+    <div class="span3"></div>
+    <div class="span2 vidthumb" id="showvidlink1"> </div>
+    <div class="span2 vidthumb" id="showvidlink2"> </div>
+    <div class="span2 vidthumb" id="showvidlink3"> </div>
+    <div class="span2 vidthumb" id="showvidlink4"> </div>
+    <div class="span3"></div>
+  </div>
+
+  <div class="background parallax" data-velocity="-.1"></div>
+</section>
+
+<section id="slide14" class="content-slide parallax" data-velocity="-.7">
+  <div class="container">
+    <h1>Support the Movement</h1>
+
+    <div id="buy-container">
+      <img id="shirt-left" src="/images/shirt-left.jpg" />
+      <a id="buy-a-shirt" href="http://thevanityproject.org/collections/stop-the-pity" target="_new"><img src="/images/STP_CTA_OrderAShirt.png" /></a>
+      <img id="shirt-right" src="/images/shirt-right.jpg" />
+    </div>
+    </div>
+</section>
+
+<section id="slide5">
   <div class="background parallax" data-velocity="-.1"></div>
 </section>
 
 <section id="slide4" class="content-slide parallax" data-velocity="-.7">
   <div class="container">
     <div class="row-fluid">
+      <div class="span2"></div>
       <div class="span8">
         <h1>Stop the Pity to Unlock the Potential</h1>
         <p>
         Stop the Pity is a movement that tells <strong>a new story about poverty</strong>. This story is about potential - the potential that every person has, regardless of circumstance, to create an amazing life for themselves and their community.
         </p>
       </div>
-      <div class="span4"></div>
+      <div class="span2"></div>
     </div>
+  </div>
+
+  <div class="row-fluid">
+    <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
   </div>
 
   <div id="slide4next" class="next-slide green">
@@ -54,20 +125,26 @@ title: 'Home'
   </div>
 </section>
 
-<section id="slide5">
+<section id="slide9">
   <div class="background parallax" data-velocity="-.1"></div>
 </section>
 
 <section id="slide6" class="content-slide parallax" data-velocity="-.7">
   <div class="container">
     <div class="row-fluid">
+      <div class="span2"></div>
       <div class="span8">
         <h1>The PAST </h1>
         <p> For decades, nonprofits have used disturbing images of poverty, disease, and death to inspire pity among potential donors. While these sorts of images have had some success in generating funding, they have also produced a perception of people dealing with poverty as victims, incapable of solving their own problems, and somehow fundamentally different than those in first world countries.
         </p>
       </div>
-      <div class="span4"></div>
+      <div class="span2"></div>
     </div>
+
+    <div class="row-fluid">
+      <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+    </div>
+
   </div>
 
   <div id="slide6next" class="next-slide green">
@@ -82,63 +159,24 @@ title: 'Home'
 <section id="slide8" class="content-slide parallax" data-velocity="-.7">
   <div class="container">
     <div class="row-fluid">
+
+      <div class="span2"></div>
       <div class="span8">
         <h1>Shift in Perception</h1>
         <p> 
         Stop the Pity originated as a video campaign launched in 2011 by Mama Hope, an organization that empowers African communities to tackle challenging projects and build their own future. Mama Hope was tired of seeing non-profit videos that portrayed the communities and the people they worked with as victims. Mama Hope didn’t want to create videos that just told the story of their founder or their organization with silent images of the people they help but rather videos that showed the light of the people they serve—the dancing, the singing, the laughter , the entrepreneurial spirit.
         </p>
       </div>
-      <div class="span4"></div>
+      <div class="span2"></div>
     </div>
+
+    <div class="row-fluid">
+      <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+    </div>
+
   </div>
 
   <div id="slide8next" class="next-slide green">
-    <a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
-  </div>
-</section>
-
-<section id="slide9">
-  <div class="background parallax" data-velocity="-.1"></div>
-</section>
-
-<section id="slide10" class="content-slide parallax" data-velocity="-.7">
-  <div class="container">
-    <div class="row-fluid"> 
-      <div class="span8">
-        <h1>Videos</h1>
-        <p> 
-        Mama Hope created 4 videos that shared the compelling truth of the lives of the communities they work with in the voice of the people.
-        </p>
-
-        <p>
-        These 4 videos received international attentional and viral success with over 1.9 million views globally.
-        </p>
-      </div>
-      <div class="span4"></div>
-    </div>
-   </div>
-</section>
-
-<section id="slide11">
-  <iframe width="853" height="480" src="//www.youtube.com/embed/qSElmEmEjb4?rel=0" frameborder="0" allowfullscreen></iframe>
-
-  <div class="background parallax" data-velocity="-.1"></div>
-</section>
-
-<section id="slide12" class="content-slide parallax" data-velocity="-.7">
-  <div class="container">
-    <div class="row-fluid">
-      <div class="span8">
-        <h1>The Movement</h1>
-        <p> In the globally connected world, there is no them and us, just us.  
-        The Stop the Pity movement is composed of individuals, artists, actors, organizations and companies who believe that what makes us the same is far greater than what makes us different. 
-        </p>  
-      </div>
-      <div class="span4"></div>
-    </div>
-  </div>
-
-  <div id="slide12next" class="next-slide green">
     <a href="#"><img src="images/STP_BTN_Down_Gren.png"></a>
   </div>
 </section>
@@ -147,16 +185,34 @@ title: 'Home'
   <div class="background parallax" data-velocity="-.1"></div>
 </section>
 
-<section id="slide14" class="content-slide parallax" data-velocity="-.7">
+<section id="slide12" class="content-slide parallax" data-velocity="-.7">
   <div class="container">
-    <h1>Support the Movement</h1>
+    <div class="row-fluid">
+      <div class="span3"></div>
+      <div class="span6">
+        <h1>The Movement</h1>
+        <p>
+          In the globally connected world, there is no them and us, just us.
+        </p>
+        <p>
+          The Stop the Pity movement is composed of individuals,
+          artists, actors, organizations and companies who believe
+          that what makes us the same is far greater than what makes
+          us different.
+        </p>
+      </div>
+      <div class="span3"></div>
+    </div>
+  </div>
 
-    <div id="buy-container">
-      <img id="shirt-left" src="/images/shirt-left.jpg" />
-      <a id="buy-a-shirt" href="http://thevanityproject.org/collections/stopthepity" target="_new"><img src="/images/STP_CTA_OrderAShirt.png" /></a>
-      <img id="shirt-right" src="/images/shirt-right.jpg" />
-    </div>
-    </div>
+  <div class="row-fluid">
+    <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+  </div>
+
+
+  <!-- <div id="slide12next" class="next-slide green"> -->
+  <!--   <a href="#"><img src="images/STP_BTN_Down_Gren.png"></a> -->
+  <!-- </div> -->
 </section>
 
 <section id="slide15">
@@ -168,16 +224,17 @@ title: 'Home'
     <h1> In Partnership with </h1>
 
     <div class="row">
-      <a id="partner1" href="#"></a>
-      <a id="partner2" class="second" href="#"></a>
-      <a id="partner3" href="#"></a>
-      <a id="partner4" class="no-m-r second" href="#"></a>
+      <a id="partner1" href="http://www.mamahope.org/"></a>
+      <a id="partner2" class="second" href="http://www.reallocate.org/"></a>
+      <a id="partner3" href="http://www.ryot.org/"></a>
+      <a id="partner4" class="no-m-r second" href="http://hopephones.org/"></a>
     </div>
     <div class="row">
-      <a id="partner5" class="second" href="#"></a>
-      <a id="partner6" href="#"></a>
-      <a id="partner7" href="#"></a>
-      <a id="partner8" class="no-m-r second" href="#"></a>
+      <a id="partner5" class="second" href="http://architectureforhumanity.org/"></a>
+      <a id="partner6" href="http://www.journeyofaction.com/"></a>
+      <a id="partner7" href="http://theadventureproject.org/"></a>
+      <a id="partner9" href="http://www.colab.coop/"></a>
+      <a id="partner8" class="no-m-r second" href="http://www.ctcinternational.org/"></a>
     </div>
   </div>
 </section>

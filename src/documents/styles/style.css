@@ -98,7 +98,7 @@ section .background {
   /*left: 0;
   position: absolute;
   top: 0;*/
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -161,7 +161,8 @@ a .stp-btn:active{
 }
 
 #slide1 .background {
-  background: url(../images/home.png) 50% 0 ;
+  background: url(../images/home.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide1-content{
@@ -186,7 +187,8 @@ a .stp-btn:active{
 }
 
 #slide3 .background {
-  background: url(../images/1.png) 50% 0 ; 
+  background: url(../images/1.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide4 h1 {
@@ -194,7 +196,8 @@ a .stp-btn:active{
 }
 
 #slide5 .background {
-  background: url(../images/2.png) 50% 0 ; 
+  background: url(../images/2.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide6 h1 {
@@ -202,7 +205,8 @@ a .stp-btn:active{
 }
 
 #slide7 .background {
-  background: url(../images/3.png) 50% 0 ; 
+  background: url(../images/3.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide8 h1 {
@@ -210,7 +214,33 @@ a .stp-btn:active{
 }
 
 #slide9 .background {
-  background: url(../images/4.png) 50% 0 ; 
+  background: url(../images/4.png) 50% 0;
+  background-repeat: no-repeat;
+}
+
+#slide11 .vidthumb {
+  width: 213px;
+  height: 120px;
+}
+
+#showvidlink1 {
+  background: url(../images/video1link.png);
+  background-size: 213px 120px;
+}
+
+#showvidlink2 {
+  background: url(../images/video2link.png);
+  background-size: 213px 120px;
+}
+
+#showvidlink3 {
+  background: url(../images/video3link.png);
+  background-size: 213px 120px;
+}
+
+#showvidlink4 {
+  background: url(../images/video4link.png);
+  background-size: 213px 120px;
 }
 
 #slide10 h1 {
@@ -228,7 +258,8 @@ a .stp-btn:active{
 }
 
 #slide11 .background {
-  background: url(../images/5.png) 50% 0 ; 
+  background: url(../images/5.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide12 h1 {
@@ -236,7 +267,8 @@ a .stp-btn:active{
 }
 
 #slide13 .background {
-  background: url(../images/6.png) 50% 0 ; 
+  background: url(../images/6.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide14 .container {
@@ -273,7 +305,8 @@ a .stp-btn:active{
 }
 
 #slide15 .background {
-  background: url(../images/7.png) 50% 0 ; 
+  background: url(../images/7.png) 50% 0;
+  background-repeat: no-repeat;
 }
 
 #slide16 .container {
@@ -357,6 +390,14 @@ a .stp-btn:active{
 
 #partner8:hover {
   background: url('../images/STP_partner8_hover.png.png') no-repeat;
+}
+
+#partner9 {
+  background: url('../images/STP_partner9.png') no-repeat;
+}
+
+#partner9:hover {
+  background: url('../images/STP_partner9_hover.png.png') no-repeat;
 }
 
 /* Non-essential demo stuff */

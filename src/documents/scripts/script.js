@@ -63,7 +63,7 @@ $(document).ready(function() {
 
   $('#slide1next').scrollToElement({
     offset: -62,
-    to: $('#slide4')
+    to: $('#slide10')
   });
 
   $('#slide4next').scrollToElement({
@@ -78,12 +78,32 @@ $(document).ready(function() {
 
   $('#slide8next').scrollToElement({
     offset: -62,
-    to: $('#slide10')
+    to: $('#slide12')
   });
 
   $('#slide12next').scrollToElement({
     offset: -62,
     to: $('#slide14')
+  });
+
+  $('#showvidlink1').click(function () {
+    $('.vidlink').addClass('hide');
+    $('#video1link').removeClass('hide');
+  });
+
+  $('#showvidlink2').click(function () {
+    $('.vidlink').addClass('hide');
+    $('#video2link').removeClass('hide');
+  });
+
+  $('#showvidlink3').click(function () {
+    $('.vidlink').addClass('hide');
+    $('#video3link').removeClass('hide');
+  });
+
+  $('#showvidlink4').click(function () {
+    $('.vidlink').addClass('hide');
+    $('#video4link').removeClass('hide');
   });
    
 });
