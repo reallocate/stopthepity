@@ -110,7 +110,7 @@ title: 'Home'
       </div>
       <div class="span4">
         <h1>Support the Movement</h1>
-        <a id="buy-a-shirt" href="http://thevanityproject.org/collections/stopthepity" target="_new"><img src="/images/STP_CTA_OrderAShirt.png" /></a>
+        <a id="buy-a-shirt" href="http://thevanityproject.org/collections/stop-the-pity" target="_new"><img src="/images/STP_CTA_OrderAShirt.png" /></a>
       </div>
       <div class="span4">
         <img id="shirt-right" src="/images/shirt-right.jpg" />
