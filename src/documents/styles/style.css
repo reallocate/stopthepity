@@ -15,7 +15,6 @@ label, input, button, select, textarea {
 
 #circle {
   display: none;
-  display: block;
   background: rgba(0,0,0,.5);
   width: 100%;
 }
@@ -25,6 +24,7 @@ label, input, button, select, textarea {
   position: absolute;
   top: 5px;
   right: 20px;
+  opacity: 1;
 }
 
 #mc_embed_signup {
@@ -468,6 +468,11 @@ footer {
   height: 100px;
   line-height: 100px;
   text-align: center;
+}
+
+footer a, footer a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (min-width: 320px) and (max-width: 522px) {
