@@ -24,7 +24,7 @@ title: 'Home'
       </div>
     </div>
     <div class="row-fluid">
-      <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+      <a id="stp-jtm-btn" href="#circle"><img src="images/STP_CTA_JoinTheMovement.png"></a>
     </div>
   </div>
 
@@ -135,7 +135,7 @@ title: 'Home'
     </div>
     <div class="row-fluid">
         <div class="span12">
-          <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+          <a id="stp-jtm-btn" href="#circle"><img src="images/STP_CTA_JoinTheMovement.png"></a>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@ title: 'Home'
     </div>
     <div class="row-fluid">
         <div class="span12">
-          <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+          <a id="stp-jtm-btn" href="#circle"><img src="images/STP_CTA_JoinTheMovement.png"></a>
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@ title: 'Home'
     </div>
     <div class="row-fluid">
         <div class="span12">
-          <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+          <a id="stp-jtm-btn" href="#circle"><img src="images/STP_CTA_JoinTheMovement.png"></a>
         </div>
       </div>
     </div>
@@ -203,7 +203,7 @@ title: 'Home'
     </div>
     <div class="row-fluid">
       <div class="span12">
-        <a id="stp-jtm-btn" href="#" ><img src="images/STP_CTA_JoinTheMovement.png"></a>
+        <a id="stp-jtm-btn" href="#circle"><img src="images/STP_CTA_JoinTheMovement.png"></a>
       </div>
     </div>
   </div>
