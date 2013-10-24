@@ -153,3 +153,17 @@ $('#stp-jtm-btn, #link-join').on('click', function(e) {
 $('#mc-embedded-subscribe, .close').on('click', function(e) {
   $('#circle').hide();
 });
+
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});

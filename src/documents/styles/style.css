@@ -541,6 +541,7 @@ footer a, footer a:hover {
 @media (max-width: 979px) {
   .navbar-fixed-top {
     margin-bottom: 0;
+    position: fixed !important;
   }
   .navbar .btn-navbar {
     margin-top: 15px;
